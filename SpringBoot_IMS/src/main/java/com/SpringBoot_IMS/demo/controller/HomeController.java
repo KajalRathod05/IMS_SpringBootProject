@@ -24,6 +24,7 @@ public class HomeController {
 	@RequestMapping("/")
 	public String preLog() {
 		System.out.println("Hello Gayatri...");
+		System.out.println("Hello Pranali");
 		return "login";
 	}
 
