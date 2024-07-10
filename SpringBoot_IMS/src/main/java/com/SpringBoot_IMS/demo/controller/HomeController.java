@@ -23,7 +23,7 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String preLog() {
-		System.out.println("Hello...");
+		System.out.println("Hello Gayatri...");
 		return "login";
 	}
 
